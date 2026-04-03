@@ -12,11 +12,21 @@ body {
   background: blue;
   color: white;
   width: 100%;
+  background-size: 100%;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  -ms-interpolation-mode: nearest-neighbor;
+
 }
 
 .row .meta-right {
   background-image: url("./assets/right-dream.jpg");
-  background-size: 100%
+}
+
+.row .meta-left {
+  background-image: url("./assets/left-dream.jpg");
 }
 
 .row .logo-bg-top {
