@@ -3,13 +3,13 @@ body {
 }
 
 .row {
+  background-color: #6c0fff;
   display: grid;
   grid-template-columns: 15vw 70vw 15vw;
   min-height: 200vmin;
 }
 
 .row [class*="meta"] {
-  background: blue;
   color: white;
   width: 100%;
   background-size: 100%;
@@ -22,13 +22,9 @@ body {
 }
 
 .row .meta-right {
-  background-image: url("./assets/right-dream.jpg");
+  background-image: url("./assets/br.jpg");
 }
 
 .row .meta-left {
-  background-image: url("./assets/left-dream.jpg");
-}
-
-.row .logo-bg-top {
-  background: red;
+  background-image: url("./assets/bl.jpg");
 }
