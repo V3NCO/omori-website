@@ -2,6 +2,19 @@ body {
 	margin: 0;
 }
 
+@font-face {
+  font-family: OMORI_GAME;
+  src: url(./assets/fonts/OMORI_GAME.ttf);
+  unicode-range: U+0000-00FF;
+}
+
+@font-face {
+  font-family: OMORI_GAME2;
+  src: url(./assets/fonts/OMORI_GAME2.ttf);
+  unicode-range: U+0000-00FF;
+}
+
+
 .row {
   background-color: #6c0fff;
   overflow-x: visible;
@@ -89,6 +102,7 @@ body {
   background: black;
   padding: 1rem;
   overflow: auto;
+  font-family: OMORI_GAME2;
 }
 
 .dialogue-box .wb {
