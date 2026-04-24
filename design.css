@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	font-family: lilex;
 }
 
 @font-face {
@@ -12,6 +13,19 @@ body {
   font-family: OMORI_GAME2;
   src: url(./assets/fonts/OMORI_GAME2.ttf);
   unicode-range: U+0000-00FF;
+}
+
+@font-face {
+  font-family: lilex;
+  src: url(./assets/fonts/Lilex-VariableFont_wght.ttf);
+  unicode-range: U+0000-00FF;
+}
+
+@font-face {
+  font-family: lilex;
+  src: url(./assets/fonts/Lilex-Italic-VariableFont_wght.ttf);
+  unicode-range: U+0000-00FF;
+  font-style: italic;
 }
 
 
