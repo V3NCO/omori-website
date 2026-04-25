@@ -35,7 +35,7 @@ body {
   overflow-y: hidden;
   display: grid;
   grid-template-columns: 15vw 70vw 15vw;
-  min-height: 200vmin;
+  min-height: 120vmin;
 }
 
 
@@ -54,11 +54,11 @@ body {
 }
 
 .row .meta-right {
-  background-image: url("./assets/br.jpg");
+  background-image: url("./assets/backgrounds/borders/br.jpg");
 }
 
 .row .meta-left {
-  background-image: url("./assets/bl.jpg");
+  background-image: url("./assets/backgrounds/borders/bl.jpg");
 }
 
 #frame {
@@ -141,4 +141,8 @@ body {
 
 .dialogue-box > .wb > * {
   position: relative;
+}
+
+.light {
+    background-image: radial-gradient(#FFFFFF, #3F3F3F, #000000);
 }
