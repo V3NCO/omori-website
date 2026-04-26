@@ -152,22 +152,36 @@ body {
   position: relative;
 }
 
+.dialogue-box > span {
+  font-size: 28px;
+  color: white;
+  line-height: 29px;
+}
+
+.dialogue-box > span > span {
+  display: inline-block;
+  width: 41px;
+}
+
 .light {
     background-image: radial-gradient(#FFFFFF, #3F3F3F, #000000);
 }
 
 /* Uhhhh layout des photos polaroid ig? */
 
+.polaroids {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 1%;
+}
 .polaroid {
-  float: left;
-  width: 23%;
-  padding: 1%;
+  flex: 0 0 calc(25% - 1%);
+  padding: 0;
 }
 
-.polaroids::after {
-  content: "";
-  clear: both;
-  display: table;
+.polaroid img {
+  width: 100%;
 }
 
 @media only screen and (max-width: 900px) {
