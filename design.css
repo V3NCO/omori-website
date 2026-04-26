@@ -157,3 +157,29 @@ body {
 }
 
 /* Uhhhh layout des photos polaroid ig? */
+
+.polaroid {
+  float: left;
+  width: 23%;
+  padding: 1%;
+}
+
+.polaroids::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media only screen and (max-width: 900px) {
+  #frame {
+    width: 100vw;
+  }
+
+  .row .meta-right {
+    display: none;
+  }
+
+  .row .meta-left {
+    display: none;
+  }
+}
