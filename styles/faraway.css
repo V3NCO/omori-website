@@ -1,0 +1,29 @@
+body {
+  color: #FFF;
+  background-image: url(../assets/backgrounds/parallax/parallax_sky_farawayday.png) !important;
+}
+
+.row {
+  background-color: transparent !important;
+}
+
+#frame::before {
+  border-style: unset !important;
+  border-image: none !important;
+}
+
+.row .meta-right {
+  background-image: url("../assets/backgrounds/borders/faraway_pole_right.png") !important;
+  background-attachment: fixed;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 15vw auto;
+}
+
+.row .meta-left {
+  background-image: url("../assets/backgrounds/borders/faraway_pole_left.png") !important;
+  background-attachment: fixed;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: 15vw auto;
+}
