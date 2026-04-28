@@ -5,25 +5,25 @@ body {
 
 @font-face {
   font-family: OMORI_GAME;
-  src: url(./assets/fonts/OMORI_GAME.ttf);
+  src: url(../assets/fonts/OMORI_GAME.ttf);
   unicode-range: U+0000-00FF;
 }
 
 @font-face {
   font-family: OMORI_GAME2;
-  src: url(./assets/fonts/OMORI_GAME2.ttf);
+  src: url(../assets/fonts/OMORI_GAME2.ttf);
   unicode-range: U+0000-00FF;
 }
 
 @font-face {
   font-family: lilex;
-  src: url(./assets/fonts/Lilex-VariableFont_wght.ttf);
+  src: url(../assets/fonts/Lilex-VariableFont_wght.ttf);
   unicode-range: U+0000-00FF;
 }
 
 @font-face {
   font-family: lilex;
-  src: url(./assets/fonts/Lilex-Italic-VariableFont_wght.ttf);
+  src: url(../assets/fonts/Lilex-Italic-VariableFont_wght.ttf);
   unicode-range: U+0000-00FF;
   font-style: italic;
 }
@@ -54,11 +54,11 @@ body {
 }
 
 .row .meta-right {
-  background-image: url("assets/backgrounds/borders/br.jpg");
+  background-image: url("../assets/backgrounds/borders/br.jpg");
 }
 
 .row .meta-left {
-  background-image: url("assets/backgrounds/borders/bl.jpg");
+  background-image: url("../assets/backgrounds/borders/bl.jpg");
 }
 
 /* Style du milieu */
@@ -94,7 +94,7 @@ body {
 
   border-style: solid;
   border-width: 48px;
-  border-image: url("assets/BorderInner.png") 30 / 48px repeat;
+  border-image: url("../assets/BorderInner.png") 30 / 48px repeat;
 
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
