@@ -202,6 +202,8 @@ th, td {
   width: 100%;
 }
 
+.secret { color: white }
+
 @media only screen and (max-width: 900px) {
   #frame {
     width: 100vw;
