@@ -26,3 +26,7 @@ body {
   background-repeat: no-repeat;
   background-size: 15vw auto;
 }
+
+.scared {
+  font-family: OMORI_GAME !important;
+}
