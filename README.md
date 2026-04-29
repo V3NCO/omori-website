@@ -1,10 +1,15 @@
 # omori-website
-:3
+A cool website in french about OMORI!
 
+I'm using it to present OMORI to friends who haven't played it so they play it
+and to show a cool thing to friends who have played it
 
-# Notes
-https://omori.fandom.com/wiki/Version_Differences?file=Border_default.png
-https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-image
+Started as schoolwork but went a bit past the schoolwork in the making
 
+Had a bit of fun with css on this one
+## Screenshots
 
-we want the console border on the left and right and then use a background color to make it longer and then use a border-image to make a frame within that
+<img width="3080" height="2046" alt="image" src="https://github.com/user-attachments/assets/3600a471-aaf7-41da-95f9-004cd6865e50" />
+<img width="3080" height="2046" alt="image" src="https://github.com/user-attachments/assets/a6b6f24e-a948-4032-8824-b565d0242801" />
+<img width="3080" height="2046" alt="image" src="https://github.com/user-attachments/assets/f40f8236-6d27-447e-a97a-82323704dd0c" />
+(the background of the third should be blurry but it glitched ig)
